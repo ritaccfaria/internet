@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Internet</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+
+<main>
+	
+	<audio id="notif" >
+		<source src="audio/sound-1.mp3" type="audio/mpeg">
+	</audio>
+	
+	<nav> 
+		
+		<div class="buttons">
+  			<div class="circle">
+ 			</div>
+ 			<div class="circle">
+ 			</div>
+ 			<div class="circle">
+  			</div>
+		</div>
+		
+		<ul>
+			<li id="news"><img src="img/icons/news.png"> RP News</li>
+			<li id="cat" class="open"><img src="img/icons/cat.png"> Cat Videos</li>
+			<li id="meme"><img src="img/icons/meme2.png"> Memes</li>
+			<li id="game"><img src="img/icons/game.png"> Game</li>
+		</ul>
+		
+		<div class="bar"> 
+			<div> 
+				<p id="search">www.cat-videos.com</p>	
+			</div>
+		</div>
+	</nav>
+	
+	<section id="showNews" class="hide">
+	
+		<article>
+			<h1>GOVERNMENT SHUTS DOWN NEWSPAPERS</h1>
+			<h2>The Administration closed down several newspapers and TV stations, claiming they were aligned with the rebels.</h2>
+			<h3 id="date"></h3>
+			<p>Campaigners for press freedom are fighting back against the government's attempts to crack down on reporting of official information. They are calling for an end to efforts to stifle journalism through “draconian” proposals in the Official Secrets Act and attempts to weaken Freedom of Information laws. The government plans to make it easier under the Official Secrets Act to convict whistleblowers and journalists who publish information in the public interest without authority. And anyone convicted could be jailed for up to 14 years, instead of two, as now. <br>
+			<br>
+			In July, the Home Office revealed proposals to reform the Official Secrets Act 1989 to make convictions easier of people who disclose information without authority. The amendment would also ramp up prison sentences for disclosures about the security services, defence, international relations and law enforcement. At the same time, ministers intend making two new Republika of Proditio organisations exempt from Freedom of Information (FoI) laws, which allow anyone to request information held on file by a public body. They are the Advanced Research and Invention Agency, which will spend public money funding high-risk research, and the proposed new Heath Services Safety Investigations Body (HSSIB), which will look at anything going wrong in healthcare that may have implications for patient safety. <br>
+			<br>
+			The proposals come against a backdrop of claims of rising secrecy. A report by media organisation openDemocracy last week found that 2020 was the worst on record for Freedom of Information Act transparency, with government departments “stonewalling” and “exploiting loopholes to delay access to information”. The director of the Campaign for Freedom of Information, warned: “Incredibly, a whistleblower who reveals that the new body [the HSSIB] has, say, failed to contact key witnesses to a medical accident will commit a criminal offence.” The public will have better rights to information from parish councils than from the new inventions agency, he said. <br>
+			<br>
+			Recent FoI disclosures in the public interest have revealed the lack of preparation for the pandemic, Covid contracts that went to ministers’ contacts, the dangers of smart motorways and the release of untreated sewage into waterways. “The FoI Act has repeatedly come under attack from government which finds the openness uncomfortable,” the director said. He also hit out at the proposed changes to the Official Secrets Act, saying: “Astonishingly, the Home Office says the maximum for leaking should be the same as for espionage - 14 years in prison. “Threatening people who reveal government misconduct with oppressive penalties will ensure that improper behaviour continues.” <br>
+			<br>
+			The government looks set to reject Law Commission advice that anyone charged be able to argue that disclosure was in the public interest. Online media and newspapers are backing the Journalism Matters campaign this week that aims to fight back against threats to press freedom. Republia of Proditio ranks only 33rd out of 180 countries in the Reporters Without Borders’ World Press Freedom Index. The director of international campaigns for Reporters Without Borders, said: “Publishing stories based on leaked information is a standard journalistic practice, and is part and parcel of the work of media organisations around the world. “However, recent years have seen increasing moves by governments to make every step of this process much more difficult - for sources, journalists and publishers alike.” Independent journalism has come under unprecedented attack around the world in recent years, she said, warning the global climate for press freedom was eroding. Internationally, more than 450 journalists are imprisoned, and more than 1,000 journalists have been killed because of their work in a decade.
+			RP News has asked the government to respond. </p>
+			
+			<img src="img/news/newspaper.jpeg">
+			
+			
+		</article>
+		
+		
+		
+		
+		
+	</section>
+	
+	<section id="showCat" class="cat">
+		
+		
+		<div class="mainVid">
+			<video id="catvideo" width="800" height="600" loop autoplay controls onloadstart="this.volume=0.2">   <!-- CONTROLAR VOLUME INICIAL -->
+  				<source src="video/cat.mp4" type="video/mp4">
+			</video>
+			
+			<h1>Charlie Schmidt's Keyboard Cat!</h1>
+			<p>63 885 017 Views</p>
+		</div>
+		
+		
+		<div class="recom">
+			<img src="img/cats/1.jpeg">
+				
+			<img src="img/cats/2.jpeg">
+				
+			<img src="img/cats/3.jpeg">
+				
+			<img src="img/cats/5.jpeg">
+				
+		</div>
+		
+		<div class="info">
+			<h3>Cute cats for when you are stressed</h3>
+			<p>3 155 535 Views</p>
+			<h3>Cat Can't Handle Flower</h3>
+			<p>29 310 133 Views</p>
+			<h3>The Two Talking Cats</h3>
+			<p>92 978 969 Views</p>
+			<h3>Dog tries to play with unwilling cat</h3>
+			<p>6 392 188 Views</p>
+		</div>
+		
+	</section>
+	
+	
+	
+	
+	
+	<section id="showMeme" class="hide">
+		
+		<div>
+			<article class="voting">
+				<img class="up" src="img/icons/up.png">
+				<p>2531</p>
+				<img class="down" src="img/icons/down.png">
+			</article>
+			<img src="img/memes/1.jpeg" class="pic">
+		</div>
+		
+		<div>
+			<article class="voting">
+				<img class="up" src="img/icons/up.png">
+				<p>1672</p>
+				<img class="down" src="img/icons/down.png">
+			</article>
+			<img class="pic" src="img/memes/2.jpeg">
+		</div>
+		
+		<div id="lastMeme">
+			<article class="voting">
+				<img class="up" src="img/icons/up.png">
+				<p>488</p>
+				<img class="down" src="img/icons/down.png">
+			</article>
+			<img class="pic" src="img/memes/3.jpeg">
+		</div>
+		
+		
+	</section>
+	
+	
+	
+	
+	
+	
+	<section id="showGame" class="hide">
+		
+		<canvas></canvas>
+		<p>Gabriel Dubé © 2017</p>
+		
+	</section>
+	
+	
+</main>	
+	
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+	<script src="jquery-3.6.0.min.js"></script>
+	<script src="audio.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
